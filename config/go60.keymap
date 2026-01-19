@@ -281,9 +281,9 @@
 
         layer_Navi {
             bindings = <
-            &none  &none  &none  &none  &none  &none                                                                       &none  &none  &none  &none  &none  &none
-            &msc SCRL_LEFT  &msc SCRL_UP  &mkp MB1   &mmv MOVE_X(-500)  &mmv MOVE_X(500)  &none                                        &none  &mmv MOVE_Y(500)  &mmv MOVE_Y(-500)  &mkp MB2 &msc SCRL_DOWN  &msc SCRL_RIGHT
             &trans &trans &trans &trans &trans &trans                                                                    &trans &trans &trans &trans &trans &trans
+            &none  &none  &msc MOVE_Y(30)  &none  &none  &none                                                                       &none  &none  &none  &msc MOVE_Y(-30) &none  &none
+            &msc MOVE_X(-10)  &msc MOVE_Y(10)  &mkp MB1   &mmv MOVE_X(-500)  &mmv MOVE_X(500)  &none                                        &none  &mmv MOVE_Y(500)  &mmv MOVE_Y(-500)  &mkp MB2 &msc MOVE_Y(-10)  &msc MOVE_X(10)
             &none &none &mkp MB1 &mmv MOVE_X(-1200)  &mmv MOVE_X(1200) &none                                                  &none  &mmv MOVE_Y(1200)  &mmv MOVE_Y(-1200)  &mkp MB2 &none &none
  
                                 &none   &none  &none                                                                      &none  &none  &none
