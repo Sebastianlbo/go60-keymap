@@ -19,20 +19,30 @@ the right thumb handles RGB toggles plus Enter.
 
 ![Base layer](assets/base_layer.png)
 
-### Symbol & Navigation Layer
+### Symbol Layer
 
-The symbol layer groups numbers, punctuation, and mouse-keys to reduce layer
-hopping while coding. The trackpad cluster doubles as a pointing-layer with
+The symbol layer groups numbers, and punctuation, to reduce hand
+movement while coding. The trackpad cluster doubles as a pointing-layer with
 `mkp`/`mmv` bindings for quick cursor nudges.
-Holding either thumb activates this layer, while tapping still gives me a very much desired
+Holding either thumb activates this layer, while tapping still gives a very much desired
 an nice positioned Enter key.
 
 ![Symbol layer](assets/symbol_layer.png)
+
+### Navigation Layer
+
+The navigation layer is dedicated to cursor movement anchored on the keyboard, mainly on the
+home row. Mouse movement is handled through key-based `mmv` bindings at multiple speeds for
+both precision and fast traversal, with nearby mouse-click bindings enabling full interaction
+without reaching for a physical mouse.
+
+![Navigation layer](assets/navigation_layer.png)
 
 ## Features
 
 - Homerow-mod (HRM) behaviors with tuned tapping terms per finger.
 - Layer-tap thumbs for instant access to the symbol layer without sacrificing Enter.
+- Combo bindings to enter navigation layer easily while keeping symbol and Enter keys in position.
 - Mouse-key bindings on the symbol layer for mouse use without leaving the keyboard.
 - Combos for frequently used characters (e.g., underscore) built around my workflow.
 
