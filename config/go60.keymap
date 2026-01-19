@@ -67,7 +67,6 @@
         };
         HRM_LPinky: HRM_LPinky {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_LPinky";
             #binding-cells = <2>;
 
             flavor = "tap-preferred";
@@ -84,7 +83,6 @@
         };
         HRM_RPinky: HRM_RPinky {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_RPinky";
             #binding-cells = <2>;
 
             flavor = "tap-preferred";
@@ -101,7 +99,6 @@
         };
         HRM_LRing: HRM_LRing {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_LRing";
             #binding-cells = <2>;
 
             flavor = "tap-preferred";
@@ -117,7 +114,6 @@
         };
         HRM_RRing: HRM_RRing {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_RRing";
             #binding-cells = <2>;
 
             flavor = "tap-preferred";
@@ -133,7 +129,6 @@
         };
         HRM_LMiddle: HRM_LMiddle {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_LMiddle";
             #binding-cells = <2>;
 
             flavor = "tap-preferred";
@@ -149,7 +144,6 @@
         };
         HRM_RMiddle: HRM_RMiddle {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_RMiddle";
             #binding-cells = <2>;
 
             flavor = "tap-preferred";
@@ -165,7 +159,6 @@
         };
         HRM_LIndex: HRM_LIndex {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_LIndex";
             #binding-cells = <2>;
 
             flavor = "balanced";
@@ -181,7 +174,6 @@
         };
         HRM_RIndex: HRM_RIndex {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_RIndex";
             #binding-cells = <2>;
 
             flavor = "balanced";
